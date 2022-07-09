@@ -42,7 +42,7 @@ await db.sync({ drop: true });
 
 await Post.create({
     username: 'GJustoo',
-    body: 'Tokyo',
+    body: 'This is the post\'s body ',
 });
 
 const app = new Application();
